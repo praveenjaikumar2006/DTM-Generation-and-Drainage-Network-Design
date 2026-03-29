@@ -91,10 +91,3 @@ Generate accurate DTMs for:
 - Accurate boundaries
 - Ready for hydrological analysis
 
-## License
-
-MIT License
-
-## Author
-
-Praveen Jaikumar
