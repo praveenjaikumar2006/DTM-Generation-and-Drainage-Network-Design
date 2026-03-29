@@ -33,3 +33,4 @@ Thumbs.db
 # Large data files (keep in training folder but don't track changes)
 *.las
 *.laz
+*.csv

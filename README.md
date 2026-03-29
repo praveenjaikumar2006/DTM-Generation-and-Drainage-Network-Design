@@ -16,11 +16,13 @@ This project uses PointNet neural network to classify LiDAR point clouds into gr
 
 ## Data
 
-Training data is located in the `training/` folder:
-- `AREA_1.las` - LiDAR point cloud data
-- `AREA_1.csv` - Labeled training data (x, y, z, label)
+Training data files are available in the `training/` folder (not included in repository due to size):
+- `AREA_1.las` - LiDAR point cloud data (255 MB)
+- `AREA_1.csv` - Labeled training data with 8.7M points (x, y, z, label)
   - Label 0: Non-ground (buildings, vegetation)
   - Label 1: Ground
+
+**Note:** These large training files are stored locally and not tracked in the repository. You'll need to provide your own LiDAR data and labels for training.
 
 ## Requirements
 
